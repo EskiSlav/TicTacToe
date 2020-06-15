@@ -10,11 +10,7 @@ GREY = GRAY = (128,128,128)
 
 WIDTH, HEIGHT = 450, 450
 ROWS, COLS = 3, 3
-[
-  [ rect, rect, rect ],
-  [ rect, rect, rect ],
-  [ rect, rect, rect ]
-]
+
 wnd = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Tik-Tak-Toe")
 
