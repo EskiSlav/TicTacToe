@@ -12,7 +12,7 @@ WIDTH, HEIGHT = 450, 450
 ROWS, COLS = 3, 3
 
 wnd = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Tik-Tak-Toe")
+pygame.display.set_caption("Tic-Tac-Toe")
 
 cross = pygame.image.load("Bullets/X_2D_Orange.png")
 circle = pygame.image.load("Bullets/Disc_2D_Red.png")
